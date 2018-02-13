@@ -1,3 +1,3 @@
 all:
-	ocamlc sha1.native -o sha1
+	ocamlc sha1.ml -o sha1
 
