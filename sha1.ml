@@ -112,7 +112,7 @@ let digest (bytes: bytes) : bytes =
 (*
  * let () =
  *   if Array.length (Sys.argv) <> 2
- *   then failwith (Printf.sprintf "Expected exactly one argument, but got: %d" (Array.length Sys.argv));
+ *   then failwith "Expected exactly one argument after executable name";
  *   let to_digest = Sys.argv.(1) in
  *   let raw_summary = digest (Bytes.of_string to_digest) in
  *   let hex_digest = encode_hex raw_summary |> Bytes.to_string in
